@@ -1,0 +1,1 @@
+This repository demonstrates a common, yet subtle, bug in Solidity related to number comparisons. The bug involves using loose equality (==) instead of strict equality (===). Loose equality can lead to unexpected type coercion that may produce incorrect results. The solution demonstrates how to fix the bug and prevent similar issues.
